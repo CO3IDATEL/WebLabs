@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+main{
+    display: flex;
+    align-items: flex-start;
+}
+.head1{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+.left-column1{
+    padding: 10px;
+    background-color: #C8FC98;
+    width: 25%;
+}
+.content-column{
+    display: grid;
+    grid-area: article;
+    margin-left: 20px;
+    padding: 10px;
+}
+.right-column{    
+    background-color:#FDE95E ;
+    width: 200px;
+}
+.span-lc1 , .span-cc1 , .span-rc1{
+    font-weight: 600;
+}
+.weight-cc1 , .weight-lc1 , .weight-rc1{
+    font-style: italic;
+    color: red;
+}
+.foot1{
+    background-color: black;
+    color: yellow;
+    text-align: center;
+}
+a.link1{
+    padding: 10px;
+    color: yellow;
+}
