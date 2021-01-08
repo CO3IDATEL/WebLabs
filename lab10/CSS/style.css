@@ -15,7 +15,7 @@
 }
 
 html {
-	background-image: url("/lab10/img/background.jpg");
+	background-image: url("../img/background.jpg");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-position: center bottom;

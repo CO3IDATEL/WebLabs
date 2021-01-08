@@ -27,11 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 	light.onclick = function() {
 		if (isRabbit){
-			setTimeout("animal.src = '/lab10/img/animal2.png', animal.style.marginTop = '20px'", 1000);
+			setTimeout("animal.src = './img/animal2.png', animal.style.marginTop = '20px'", 1000);
 			isRabbit = false;
 		}
 		else{
-			setTimeout("animal.src = '/lab10/img/animal1.png', animal.style.marginTop = '20px'", 1000);
+			setTimeout("animal.src = './img/animal1.png', animal.style.marginTop = '20px'", 1000);
 			isRabbit = true;
 		}
 		animal.style.marginTop = '150px';
